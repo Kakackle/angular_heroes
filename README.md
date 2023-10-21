@@ -1,5 +1,18 @@
 # AngularHeroes
 
+Almost-complete implementation of the official Angular tutorial project
+excluding the [6th parth](https://angular.io/tutorial/tour-of-heroes/toh-pt6)
+
+The uses a mock server for async getting simple data, then showcases routing, splitting into components, services etc
+
+Key insinghts:
+* use ng generate [service, module, component] for different purposed and to autoimport stuff
+
+* within the app folder: 
+    * app.components.ts is the main component file, whle app.module.ts includes imports of other modules to be used within it
+    * app-routing module (ng generate module) is a router module
+    * ...
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.7.
 
 ## Development server
